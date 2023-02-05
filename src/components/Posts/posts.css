@@ -1,0 +1,26 @@
+.sort-controller {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sort-controller button {
+  margin: 0 3px;
+  padding: 10px 50px;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: 1px solid #1b80d6;
+  background-color: white;
+  color: #1b80d6;
+}
+
+.selected-button {
+  background-color: #1b80d6 !important;
+  color: white !important;
+  border: 1px solid white !important;
+}
+
+.sort-controller span {
+  font-size: 1rem;
+  margin-right: 10px;
+}
