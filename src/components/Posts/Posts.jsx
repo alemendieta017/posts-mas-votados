@@ -4,7 +4,9 @@ import data from '../../data.js'
 import './posts.css'
 
 export const Posts = () => {
-  const [posts, setPosts] = useState(sortPostsAsc(data))
+  const [posts, setPosts] = useState(() => {
+    return sortPostsAsc(data)
+  })
   const [order, setOrder] = useState('asc')
 
   function sortPostsAsc(posts) {
